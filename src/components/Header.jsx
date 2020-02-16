@@ -1,6 +1,6 @@
 import React from "react";
 import Logo from "../images/logo.png";
-import Boton_contacto from "./Boton_contacto";
+import ContactButton from "./buttons/ContactButton";
 
 function Header() {
   return (
@@ -12,7 +12,7 @@ function Header() {
       <p className="inicio">Inicio</p>
       <p>¿Quiénes somos?</p>
       <p>Galería</p>
-      <Boton_contacto />
+      <ContactButton />
     </header>
   );
 }

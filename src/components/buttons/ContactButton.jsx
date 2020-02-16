@@ -1,7 +1,7 @@
 import React from "react";
 
-function Boton_contacto() {
+function ContactButton() {
   return <button className="contacto">Contáctanos</button>;
 }
 
-export default Boton_contacto;
+export default ContactButton;
