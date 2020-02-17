@@ -13,7 +13,7 @@ function Header() {
       <p>¿Quiénes somos?</p>
       <p>Galería</p>
       <div className="btn">
-        <ContactButton />
+        <ContactButton clase="contacto" />
       </div>
     </header>
   );
