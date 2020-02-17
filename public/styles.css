@@ -203,12 +203,11 @@ footer {
 .youtube {
   background-color: #ff0000;
 }
+
 .comptext{
   width: 40%;
-  align-items: center;
+  text-align: center;
   margin: auto;
-  font-family: Helvetica;
-
 }
 
 .comptext h3{
