@@ -203,3 +203,49 @@ footer {
 .youtube {
   background-color: #ff0000;
 }
+.comptext{
+  width: 40%;
+  align-items: center;
+  margin: auto;
+  font-family: Helvetica;
+
+}
+
+.comptext h3{
+  font-size: 60px;
+  color: #F8B400;
+}
+
+.comptext p{
+  font-size: 45px;
+}
+
+input{
+  padding: 12px 20px;
+  margin: 10px 10px 20px 10px;
+  font-size: 25px;
+  border-radius: 10px;
+  width: 40%;
+  border: 1px solid black;
+}
+
+.mensaje{
+  width: 88%;
+  height: 200px;
+  padding: 12px 20px;
+  margin: 10px 10px 20px 10px;
+  font-size: 25px;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
+.btcont{
+  padding: 25px;
+  margin: 10px 10px 20px 10px;
+  font-size: 25px;
+  border-radius: 10px;
+  background-color: #F8B400; 
+  border:1px solid #F8B400; 
+  color: white;
+}
+
