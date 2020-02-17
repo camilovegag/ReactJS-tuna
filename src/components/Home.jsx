@@ -1,7 +1,7 @@
 import React from "react";
 import Title from "./Title";
 import Tunos from "../images/tunos.png";
-import Contact from "./contact";
+import Contact from "./Contact";
 
 function Home() {
   return (
