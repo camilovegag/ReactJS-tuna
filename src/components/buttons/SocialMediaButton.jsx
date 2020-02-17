@@ -2,8 +2,10 @@ import React from "react";
 
 function SocialMediaButton(props) {
   return (
-    <div className="redes">
-      <i className="fab fa-facebook-f"></i>
+    <div>
+      <a href={props.link} className={props.redes}>
+        <i className={props.social}></i>
+      </a>
     </div>
   );
 }

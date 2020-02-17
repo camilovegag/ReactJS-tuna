@@ -4,15 +4,30 @@
   font-family: "Montserrat", sans-serif;
 }
 
+body {
+  width: 1920px;
+}
+/* ESTILOS PARA LOS TITULOS */
+
+h2 {
+  color: #f8b400;
+  font-size: 70px;
+  font-weight: bold;
+}
+
 /* ESTILOS PARA EL HEADER */
 
 header {
+  align-items: center;
   background-color: #330b14;
   color: #ffffff;
   display: flex;
+  height: 100%;
   justify-content: space-between;
-  align-items: center;
+  max-height: 200px;
+  max-width: 1920px;
   padding: 0 160px;
+  width: 100%;
 }
 .brand {
   display: flex;
@@ -39,30 +54,78 @@ header {
   height: 75px;
   width: 275px;
 }
+/* ESTILOS PARA EL HOME */
+
+.home {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  max-width: 1920px;
+  max-height: 880px;
+  padding: 0 160px;
+}
+
+.descripcion {
+  font-size: 40px;
+  font-weight: 400;
+  padding-top: 35px;
+}
+.contenedor-home {
+  display: flex;
+  width: 1760px;
+  height: 720px;
+  padding-top: 160px;
+}
+.contenedor-titulo {
+  width: 713px;
+  height: 364px;
+}
 
 /* ESTILOS PARA EL FOOTER */
 
 footer {
   background-color: #330b14;
-  width: 1920px;
-  height: 175px;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  max-height: 175px;
+  max-width: 1920px;
+  padding: 0 160px;
+  width: 100%;
 }
 
-/* ESTILOS PAR AEL BOTON DE REDES SOCIALES */
+/* ESTILOS PARA EL BOTON DE REDES SOCIALES */
 .socialContainer {
   display: flex;
+  font-size: 40px;
   height: 100px;
   justify-content: space-between;
+  padding: 30px 0;
   width: 675px;
 }
 
 .redes {
   align-items: center;
-  background-color: #3b5998;
   border-radius: 10px;
   color: #fff;
   display: flex;
   height: 100px;
   justify-content: center;
   width: 150px;
+  text-decoration: none;
+}
+.redes:hover {
+  opacity: 0.8;
+}
+.facebook {
+  background-color: #3b5998;
+}
+.twitter {
+  background-color: #1da1f2;
+}
+.instagram {
+  background: linear-gradient(0deg, rgba(214, 41, 118, 1) 0%, rgba(250, 126, 30, 1) 100%);
+}
+.youtube {
+  background-color: #ff0000;
 }
