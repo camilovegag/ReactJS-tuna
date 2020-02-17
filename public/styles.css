@@ -26,12 +26,13 @@ header {
   justify-content: space-between;
   max-height: 200px;
   max-width: 1920px;
-  padding: 0 160px;
+  /* padding: 0 160px; */
   width: 100%;
 }
 .brand {
   display: flex;
   align-items: center;
+  padding-left: 160px;
 }
 .brand h1 {
   padding-left: 32px;
@@ -43,7 +44,11 @@ header {
 }
 
 /* ESTILOS PARA EL BOTON DE CONTACTO */
-
+.btn {
+  height: 75px;
+  width: 275px;
+  padding-right: 160px;
+}
 .contacto {
   background-color: #f8b400;
   border: none;
@@ -62,7 +67,6 @@ header {
   height: 100%;
   max-width: 1920px;
   max-height: 880px;
-  padding: 0 160px;
 }
 
 .descripcion {
@@ -79,6 +83,7 @@ header {
 .contenedor-titulo {
   width: 713px;
   height: 364px;
+  padding-left: 160px;
 }
 
 /* ESTILOS PARA EL FOOTER */
@@ -90,7 +95,7 @@ footer {
   justify-content: center;
   max-height: 175px;
   max-width: 1920px;
-  padding: 0 160px;
+  /* padding: 0 160px; */
   width: 100%;
 }
 
