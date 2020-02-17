@@ -13,7 +13,8 @@ function App() {
       <Home />
       <Ad />
       <History />
-      <Contact />
+      <Contact titulo="Contactanos" displaytext="¿Quieres una serenata de la Tuna? Llena los datos del formulario de abajo para entrar en contacto" fstinput="Tu nombre" 
+        scninput="Tu correo" msginput="Tu mensaje" buttontext="Entra en contacto" />
       <Footer />
     </div>
   );
