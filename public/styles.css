@@ -204,22 +204,22 @@ footer {
   background-color: #ff0000;
 }
 
-.comptext{
+.comptext {
   width: 40%;
   text-align: center;
   margin: auto;
 }
 
-.comptext h3{
+.comptext h3 {
   font-size: 60px;
-  color: #F8B400;
+  color: #f8b400;
 }
 
-.comptext p{
+.comptext p {
   font-size: 45px;
 }
 
-input{
+input {
   padding: 12px 20px;
   margin: 10px 10px 20px 10px;
   font-size: 25px;
@@ -228,7 +228,7 @@ input{
   border: 1px solid black;
 }
 
-.mensaje{
+.mensaje {
   width: 88%;
   height: 200px;
   padding: 12px 20px;
@@ -238,13 +238,12 @@ input{
   border: 1px solid black;
 }
 
-.btcont{
+.btcont {
   padding: 25px;
   margin: 10px 10px 20px 10px;
   font-size: 25px;
   border-radius: 10px;
-  background-color: #F8B400; 
-  border:1px solid #F8B400; 
+  background-color: #f8b400;
+  border: 1px solid #f8b400;
   color: white;
 }
-
